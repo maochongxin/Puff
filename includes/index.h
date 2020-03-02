@@ -58,10 +58,10 @@ public:
         return *this;
     }
 
-    std::string key_;
     friend void EncodeIndex(char* buf, const Index& index);
     friend void DecodeIndex(char* buf, Index* index);
 private:
+    std::string key_;
     uint32_t file_index_;
     uint64_t file_offset_;
 
