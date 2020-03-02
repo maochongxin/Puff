@@ -1,3 +1,5 @@
+// Copyright (c) 2020 The Puff Authors. All rights reserved.
+
 #ifndef PUFF_INCLUDES_BITCASK_H_
 #define PUFF_INCLUDES_BITCASK_H_
 
