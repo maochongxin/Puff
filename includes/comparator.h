@@ -4,6 +4,7 @@
 #define PUFF_INCLUDE_COMPARATOR_H_
 
 #include <string.h>
+
 #include "includes/index.h"
 
 namespace puff {

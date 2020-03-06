@@ -8,13 +8,13 @@
 #include <vector>
 
 #include "file/file.h"
+#include "includes/bitcask.h"
 #include "includes/db.h"
 #include "includes/comparator.h"
 #include "includes/options.h"
 #include "includes/skiplist.h"
 #include "util/arena.h"
 #include "util/lock.h"
-#include "includes/bitcask.h"
 
 namespace puff {
 

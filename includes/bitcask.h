@@ -8,8 +8,10 @@
 #include <thread>
 #include <vector>
 
+#include "includes/options.h"
 #include "util/coding.h"
 #include "util/hash.h"
+
 
 namespace puff {
 namespace bitcask {

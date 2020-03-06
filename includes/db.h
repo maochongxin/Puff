@@ -3,9 +3,9 @@
 #ifndef PUFF_INCLUDE_DB_H_
 #define PUFF_INCLUDE_DB_H_
 
-#include "includes/options.h"
-#include "includes/env.h"
 #include "includes/comparator.h"
+#include "includes/env.h"
+#include "includes/options.h"
 
 namespace puff {
 

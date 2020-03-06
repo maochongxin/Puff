@@ -5,8 +5,9 @@
 
 #include <atomic>
 #include "file.h"
-#include "../util/coding.h"
-#include "../util/lock.h"
+
+#include "util/coding.h"
+#include "util/lock.h"
 
 namespace puff {
 
