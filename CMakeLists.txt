@@ -39,7 +39,7 @@ file(GLOB_RECURSE SOURCE
 )
 
 add_library(puff ${SOURCE})
-target_link_libraries(puff pthread rt)
+target_link_libraries(puff pthread)
 set_target_properties(puff PROPERTIES OUTPUT_NAME puff)
 install(TARGETS puff DESTINATION lib)
 
